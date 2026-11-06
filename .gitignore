@@ -1,0 +1,4 @@
+node_modules/
+*.bak
+game_data.json
+settings.json

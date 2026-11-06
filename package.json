@@ -1,0 +1,16 @@
+{
+  "name": "bttw-data-tool",
+  "productName": "BTTW Data Tool",
+  "version": "0.1.0",
+  "description": "Upgrade node and disc layout editor for Balls to the Walls",
+  "main": "main.js",
+  "private": true,
+  "scripts": {
+    "start": "electron .",
+    "test": "node test/parsers.test.js",
+    "shortcut": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/create-shortcut.ps1"
+  },
+  "devDependencies": {
+    "electron": "^45.0.0"
+  }
+}
